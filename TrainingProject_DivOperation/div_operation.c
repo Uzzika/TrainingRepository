@@ -8,19 +8,21 @@ int main() {
     int a, b;
     float div;
 
+    printf("Введите первое значение - ");
     scanf_s("%d", &a);
+    printf("Введите второе значение - ");
     scanf_s("%d", &b);
 
     if (b == 0) {
-        printf("На 0 делить нельзя\n");
+        printf("На 0 делить нельзя!\n");
     }
     else {
         if (a == 0) {
-            printf("Ответ 0");
+            printf("Ответ: 0\n");
         }
         else {
             div = a / b;
-            printf("Ответ - %f", div);
+            printf("Ответ: %.2f\n", div);
         }
     }
     system("pause");
