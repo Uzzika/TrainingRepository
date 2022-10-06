@@ -8,9 +8,7 @@ int main() {
     int a, b;
     float div;
 
-    printf("¬ведите первое значение - ");
     scanf_s("%d", &a);
-    printf("¬ведите второе значение - ");
     scanf_s("%d", &b);
 
     if (b == 0) {
